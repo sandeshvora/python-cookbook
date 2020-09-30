@@ -27,7 +27,7 @@ with open('stocks.csv') as f:
         print('    ', row)
 
 
-# (c) Reading as dictionaries
+# (c) Reading as dictionaries as a key value pair
 
 print('Reading as dicts')
 with open('stocks.csv') as f:
@@ -36,7 +36,7 @@ with open('stocks.csv') as f:
         # process row
         print('    ', row)
 
-# (d) Reading into tuples with type conversion
+# (d) Reading into tuples with type conversion 
 
 print('Reading into named tuples with type conversion')
 
